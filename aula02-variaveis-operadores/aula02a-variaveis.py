@@ -21,7 +21,7 @@ print(nome, idade, peso)
 print(f"Oiii, {nome}!!!!")
 
 # INPUTS - SIMULAÇÂO DE FORMS NO CMD
-nome = input("Disite o seu nome: ")
+nome = input("Digite o seu nome: ")
 idade = int(input("Digite sua idade: "))
 
 nova_idade = idade + 1
@@ -29,7 +29,3 @@ nova_idade = idade + 1
 print(nome, idade)
 print(nova_idade)
 
-# atividade 1
-
-nome = input("Informe se nome: ")
-print(f"Seja bem vindo, {nome}.")
