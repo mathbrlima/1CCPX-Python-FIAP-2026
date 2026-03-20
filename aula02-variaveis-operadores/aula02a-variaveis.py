@@ -1,3 +1,5 @@
+from pyasn1_modules.rfc8418 import dhSinglePass_stdDH_sha256kdf_scheme
+
 print("ola mundo")
 
 print(7 + 4)
@@ -26,3 +28,8 @@ nova_idade = idade + 1
 
 print(nome, idade)
 print(nova_idade)
+
+# atividade 1
+
+nome = input("Informe se nome: ")
+print(f"Seja bem vindo, {nome}.")
