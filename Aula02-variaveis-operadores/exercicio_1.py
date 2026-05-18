@@ -3,6 +3,6 @@
 π = 3.14159
 raio = 5
 
-area_circulo = float(π * raio**2)
+area_circulo = (π * raio**2)
 
 print(f"A área do circulo é {area_circulo} cm²")
